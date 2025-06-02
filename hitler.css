@@ -1,0 +1,136 @@
+html {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hero {
+  position: inherit;
+  height: 100vh;
+  background-image: url(Albert.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content {
+  position: relative;
+}
+#section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 173, 173);
+  color: black;
+  padding: 20px;
+}
+#background {
+  background-image: url(tesla.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glassbox {
+  position: relative;
+  height: 40vh;
+  width: 80%;
+  padding: 20px 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 2px white 0 0 0 0.2;
+  color: white;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+.header {
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  font-size: larger;
+  color: aliceblue;
+  position: fixed;
+}
+.a {
+  text-decoration: none;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  animation-duration: 5ms;
+}
+#hero1 {
+  position: inherit;
+  height: 100vh;
+  background-image: url(Albert.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.a :hover {
+  color: orangered;
+  animation-duration: 5ms;
+  transform: translateY(-3px);
+  transition: all 0.3s;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+h2 {
+  font-size: xx-large;
+}
+.dialogue {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.title {
+  margin-bottom: -100px;
+  padding-top: 100px;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 173, 173);
+  color: black;
+  padding: 20px;
+}
+.a1 {
+  text-decoration: none;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+  animation-duration: 5ms;
+  font-weight: bold;
+}
+.a1 :hover {
+  color: orangered;
+  animation-duration: 5ms;
+  transform: translateY(-3px);
+  transition: all 0.3s;
+}
